@@ -1,7 +1,15 @@
 # Discord-JS-Bot-Template
 Template for creating a DiscordJS bot 
 
-ReadMD template too ↓
+This includes a 
+ - Command Handler
+ - Event Handler
+ - ReadMD template
+ - Proper git ignore
+ - ENV example
+ - Login
+
+ReadMD template↓
 
 # MY Discord Bot
 ![DiscordJS Version](https://img.shields.io/node/v/discord.js?style=flat-square)
