@@ -36,3 +36,5 @@ ReadMD template↓
     <a href="LICENSE">License</a>
   </p>
 </p>
+
+This isn't really intended for public use, just a personal thing but if you have suggestions, feel free to open an issue ☻
