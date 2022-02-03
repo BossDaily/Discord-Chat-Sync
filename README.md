@@ -1,7 +1,7 @@
 # Discord-JS-Bot-Template
 Template for creating a DiscordJS bot 
 
-This includes a 
+This includes 
  - Command Handler
  - Event Handler
  - ReadMD template
