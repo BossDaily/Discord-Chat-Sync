@@ -8,6 +8,10 @@ This includes a
  - Proper git ignore
  - ENV example
  - Login
+ - Dependancies
+ - Folders
+ 
+Command and event handler is the same one based off of the [Discord.JS guide](https://discordjs.guide/)
 
 ReadMD template↓
 
