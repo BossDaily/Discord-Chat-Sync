@@ -1,6 +1,6 @@
 <br />
 <p align="center">
-  <a href="https://github.com/as-of-yet-unnamed/plugin">
+  <a href="https://github.com/BossDaily/Discord-Chat-Sync">
     <img src="https://img.icons8.com/ios-glyphs/344/refresh--v1.png 2x" alt="Logo" width="200" height="200">
   </a>
 
