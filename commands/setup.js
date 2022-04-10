@@ -3,11 +3,11 @@ const {MessageEmbed, CommandInteractionOptionResolver, Message} = require('disco
 
 module.exports = {
     data: new SlashCommandBuilder()
-        .setName('hi')
-        .setDescription('this sends an embed in the channel you choose'),
+        .setName('setup')
+        .setDescription('This command sets up the bot'),
     
     async execute(interaction) {
-        interaction.reply('hi')
+        interaction.reply('This command currently does nothing. In the future it will setup the bot and let you sync channels')
     }
 }
 
