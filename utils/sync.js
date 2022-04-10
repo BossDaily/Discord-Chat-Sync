@@ -1,5 +1,5 @@
 const {SlashCommandBuilder, SlashCommandStringOption} = require('@discordjs/builders');
-const {MessageEmbed, CommandInteractionOptionResolver, Message, WebhookClient, WebhookClient} = require('discord.js');
+const {MessageEmbed, CommandInteractionOptionResolver, Message, WebhookClient } = require('discord.js');
 const { serverOne, serverTwo } = require('../config.json') 
 
 
