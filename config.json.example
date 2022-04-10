@@ -1,4 +1,14 @@
 {
     "clientId": "",
-    "guildId": ""
+    "guildId": "",
+    "serverOne": {
+        "id": "",
+        "webhook": "",
+        "channel":""
+    },
+    "serverTwo": {
+        "id": "",
+        "webhook": "",
+        "channel": ""
+    }
 }
