@@ -1,4 +1,4 @@
-const { default: syncMessage } = require("../utils/sync");
+const { syncMessage } = require("../utils/sync");
 
 //This logs all interactions
 module.exports = {
