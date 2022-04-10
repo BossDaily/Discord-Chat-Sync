@@ -12,9 +12,9 @@ const syncMessage = (msg) => {
     const webhookOne = new WebhookClient({ url: `${serverOne.webhook}` });
     const webhookTwo = new WebhookClient({ url: `${serverTwo.webhook}`});
 
-    if(msg.channelid === serverOne.id){
+    if(channelid === serverOne.id){
         
-    } else if (msg.channelid === serverTwo.id){
+    } else if (channelid === serverTwo.id){
 
     } else {
         console.log('this message will not sync')
