@@ -13,9 +13,17 @@ const syncMessage = (msg) => {
     const webhookTwo = new WebhookClient({ url: `${serverTwo.webhook}`});
 
     if(channelid === serverOne.id){
-        
+        webhookOne.send({
+            content: `${userContent}`,
+            username: `${userName}`,
+            avatarURL: `${userPfp}`
+        })
     } else if (channelid === serverTwo.id){
-
+        webhookTwo.send({
+            content: `${userContent}`,
+            username: `${userName}`,
+            avatarURL: `${userPfp}`
+        })
     } else {
         console.log('this message will not sync')
     }
