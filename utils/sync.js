@@ -12,9 +12,7 @@ const syncMessage = (msg) => {
     const webhookOne = new WebhookClient({ url: `${serverOne.webhook}` });
     const webhookTwo = new WebhookClient({ url: `${serverTwo.webhook}`});
 
-    if(userPfp === null) {
-        console.log('this message will not sync')
-    } else if(channelid === serverOne.channel){
+    if(channelid === serverOne.channel){
         webhookTwo.send({
             content: `${userContent}`,
             username: `${userName}`,
