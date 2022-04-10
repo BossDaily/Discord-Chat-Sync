@@ -1,10 +1,10 @@
 const {SlashCommandBuilder, SlashCommandStringOption} = require('@discordjs/builders');
-const {MessageEmbed, CommandInteractionOptionResolver, Message, WebhookClient } = require('discord.js');
+const {MessageEmbed, CommandInteractionOptionResolver, Message, WebhookClient, User } = require('discord.js');
 const { serverOne, serverTwo } = require('../config.json') 
 
 
 const syncMessage = (msg) => {
-    const userPfp = msg.author.user.avatarURL()
+    const userPfp = msg.author.user.displayAvatarURL( {dynamic: true})
     const userName = msg.author.user.username
     const userContent = msg.content
     const channelid = msg.channelid
@@ -29,4 +29,4 @@ const syncMessage = (msg) => {
     }
 }
 
-export default syncMessage
+module.exports = {syncMessage}
