@@ -7,6 +7,7 @@ const syncMessage = (msg) => {
     const userPfp = msg.author.user.avatarURL()
     const userName = msg.author.user.username
     const userContent = msg.content
+    const channelid = msg.channelid
 
     const webhookOne = new WebhookClient({ url: `${serverOne.webhook}` });
     const webhookTwo = new WebhookClient({ url: `${serverTwo.webhook}`});
