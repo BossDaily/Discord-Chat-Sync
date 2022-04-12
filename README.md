@@ -13,3 +13,5 @@
 </p>
 
 ⚠️ This is in development and shouldn't be used on production servers⚠️
+
+Right now this bot works but the configuration is janky
