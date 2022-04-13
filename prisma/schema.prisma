@@ -2,10 +2,19 @@
 // learn more about it in the docs: https://pris.ly/d/prisma-schema
 
 generator client {
-  provider = "mysql"
+  provider = "prisma-client-js"
 }
 
 datasource db {
-  provider = "postgresql"
+  provider = "mysql"
   url      = env("DATABASE_URL")
+}
+
+model Guild {
+  id Int @unique
+  synced Boolean
+  syncedTo Int
+  channelSynced Int
+  webhookLink String
+  
 }
